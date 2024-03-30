@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 200vh; /* Just for demonstration purpose to create scroll */
+}
+
+.container {
+  text-align: center;
+}
+
+.centered-text {
+  color: #333;
+  font-size: 24px;
+}
+
+.hidden-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  margin-top: 50px;
+}
+
+.visible {
+  opacity: 1;
+}
